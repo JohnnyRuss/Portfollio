@@ -1,0 +1,62 @@
+[
+  {
+    "id": "logo--1",
+    "title": "HTML",
+    "logo": "/assets/logos/html.webp"
+  },
+  {
+    "id": "logo--2",
+    "title": "CSS",
+    "logo": "/assets/logos/css.webp"
+  },
+  {
+    "id": "logo--3",
+    "title": "SASS",
+    "logo": "/assets/logos/sass.webp"
+  },
+  {
+    "id": "logo--4",
+    "title": "TailwindCSS",
+    "logo": "/assets/logos/tailwind.webp"
+  },
+  {
+    "id": "logo--5",
+    "title": "Bootstrap",
+    "logo": "/assets/logos/bootstrap.webp"
+  },
+  {
+    "id": "logo--6",
+    "title": "StyledComponents",
+    "logo": "/assets/logos/styled.webp"
+  },
+  {
+    "id": "logo--7",
+    "title": "JavaScript(ES6)",
+    "logo": "/assets/logos/js.webp"
+  },
+  {
+    "id": "logo--8",
+    "title": "ReactJS",
+    "logo": "/assets/logos/react.webp"
+  },
+  {
+    "id": "logo--9",
+    "title": "Typescript",
+    "logo": "/assets/logos/typescript.webp"
+  },
+  {
+    "id": "logo--10",
+    "title": "Redux",
+    "logo": "/assets/logos/redux.webp"
+  },
+  {
+    "id": "logo--11",
+    "title": "Zustand",
+    "logo": "/assets/logos/zustand.webp"
+  },
+  {
+    "id": "logo--12",
+    "title": "ReactQuery",
+    "logo": "/assets/logos/react-query.webp"
+  }
+]

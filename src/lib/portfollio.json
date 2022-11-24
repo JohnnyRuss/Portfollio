@@ -1,0 +1,152 @@
+[
+  {
+    "id": "portfollio-app--1",
+    "title": "Bookmark Landing",
+    "fig": "/assets/apps/bookmark-landing.webp",
+    "demo": "https://bookmark-landing-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Bookmark-Landing-tw-",
+    "techs": ["react", "typescript", "tailwind"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--2",
+    "title": "Easy Bank",
+    "fig": "/assets/apps/easy-bank.webp",
+    "demo": "https://easy-bank-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Easy-Bank-sc-",
+    "techs": ["react", "typescript", "styled components"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--3",
+    "title": "Fylo",
+    "fig": "/assets/apps/fylo.webp",
+    "demo": "https://fylo-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/fylo-B-",
+    "techs": ["react", "typescript", "bootstrap"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--4",
+    "title": "Link Shorterer",
+    "fig": "/assets/apps/link-shorterer.webp",
+    "demo": "https://link-shorterer-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/url-shorterer--sc-",
+    "techs": ["react", "typescript", "tailwind"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--5",
+    "title": "Manage Landing",
+    "fig": "/assets/apps/manage-landing.webp",
+    "demo": "https://landing-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Landing-tw-",
+    "techs": ["react", "typescript", "tailwind"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--6",
+    "title": "Natours",
+    "fig": "/assets/apps/natours.webp",
+    "demo": "https://natures-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Natours",
+    "techs": ["react", "SASS"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--7",
+    "title": "Nexter",
+    "fig": "/assets/apps/nexter.webp",
+    "demo": "https://nexter-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Nexter-Static",
+    "techs": ["react", "SASS"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--8",
+    "title": "Pcfy",
+    "fig": "/assets/apps/pcfy.webp",
+    "demo": "https://bootcamppcfy.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Bootcamp-2022",
+    "techs": ["react", "SASS"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--9",
+    "title": "Product Page",
+    "fig": "/assets/apps/product-page.webp",
+    "demo": "https://product-page-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/product-page-sc-",
+    "techs": ["react", "typescript", "styled components"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--10",
+    "title": "Quiz",
+    "fig": "/assets/apps/quiz.webp",
+    "demo": "https://quiz-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/react-quiz",
+    "techs": ["react", "typescript"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--11",
+    "title": "Room Page",
+    "fig": "/assets/apps/room-page.webp",
+    "demo": "https://room-page-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Room-Page-tw-",
+    "techs": ["react", "typescript", "tailwind"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--12",
+    "title": "Shopping Cart",
+    "fig": "/assets/apps/shopping-cart.webp",
+    "demo": "https://shopping-cart-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/shopping-card--tw-",
+    "techs": ["react", "typescript", "tailwind"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--13",
+    "title": "Space Tourism",
+    "fig": "/assets/apps/space-tourism.webp",
+    "demo": "https://space-tourism-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Space-Tourism-tw-",
+    "techs": ["react", "typescript", "tailwind"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--14",
+    "title": "To Do",
+    "fig": "/assets/apps/to-do.webp",
+    "demo": "https://to-do-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/To-Do-App",
+    "techs": ["react", "typescript"],
+    "description": "",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--15",
+    "title": "Trillo",
+    "fig": "/assets/apps/trillo.webp",
+    "demo": "https://trillo-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Trillo",
+    "techs": ["react", "SASS"],
+    "description": "",
+    "featured": false
+  }
+]
