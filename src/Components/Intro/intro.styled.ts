@@ -1,5 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { media } from "../../styles/media.styles";
+
+const run_gradient = keyframes`
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+`;
 
 export const IntroContainer = styled.section`
   width: 100%;
@@ -29,18 +41,28 @@ export const IntroContainer = styled.section`
 
     .person-name {
       font-size: ${({ theme }) => theme.fontSize["h-3"]};
-      letter-spacing: 1.8px;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+      color: ${({ theme }) => theme.color.darkOrange};
+      text-shadow: 1px 1px 1px red, 2px 1px 2px orange;
 
-      ${({ theme }) => media.mobileLg`
-        font-size: ${theme.fontSize["h-2"]};
-      `}
+      ${({ theme }) => media.tablet`
+        font-size: ${theme.fontSize["h-1"]};
+      `};
     }
 
     .person-proffesion {
       font-size: ${({ theme }) => theme.fontSize["h-2"]};
       letter-spacing: 2.5px;
+      background: linear-gradient(to right top, #fc300a 40%, #ffb40a 120%);
+      background-size: 400% 300%;
+      animation: ${run_gradient} 2s linear infinite;
+      background-clip: text;
+      -moz-background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 
-      ${({ theme }) => media.mobileLg`
+      ${({ theme }) => media.tablet`
         font-size: ${theme.fontSize["h-1"]};
       `}
     }

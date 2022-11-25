@@ -1,17 +1,26 @@
 import styled from "styled-components";
+import { media } from "../../styles/media.styles";
+import { sectionHeading, sectionBox } from "../../styles/helpers.styled";
 
 export const SkillsContainer = styled.section`
-  width: 100%;
-  min-height: 8rem;
-  max-width: ${({ theme }) => theme.utils.container};
-  margin: 0 auto;
-  margin-top: 7rem;
-  padding: 0 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5rem, 10rem));
-  justify-content: center;
-  justify-items: center;
-  gap: 1.5rem;
+  ${sectionBox};
+  min-height: 11rem;
+
+  .skills__heading {
+    ${sectionHeading("start")};
+
+    ${media.mobileLg`
+      margin-left:6rem;
+    `}
+  }
+
+  .skills__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 10rem));
+    justify-content: center;
+    justify-items: center;
+    gap: 1.5rem;
+  }
 
   .skill-item {
     display: flex;
@@ -34,5 +43,6 @@ export const SkillsContainer = styled.section`
 
   .skill-item__title {
     font-size: ${({ theme }) => theme.fontSize.xsm};
+    color:${({theme})=>theme.color.gray}
   }
 `;

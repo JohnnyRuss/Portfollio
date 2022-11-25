@@ -15,8 +15,13 @@ const BaseTheme: DefaultTheme = {
     "black-tr": "rgba(0,0,0,0.8)",
     black: "#000",
     white: "#fff",
+    whiteFade: "rgba(299,299,299,0.7)",
     orange: "#FFB40A",
+    darkOrange: "#F97203",
     red: "#FC300A",
+    gray: "#A6A6A6",
+    grayishBlue: "#5F6673",
+    lightGray: "#E5E5E5",
   },
 
   utils: {

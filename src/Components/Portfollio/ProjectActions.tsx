@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 interface ProjectActionsType {
   demo: string;
@@ -15,10 +16,12 @@ const ProjectActions: React.FC<ProjectActionsType> = ({
   id,
   setExpandedId,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="details__btn-box">
       <a href={demo} target="_blank">
-        See Demo
+       {t("project_demo_btn")}
       </a>
       <a href={git} target="_blank">
         git
@@ -27,7 +30,7 @@ const ProjectActions: React.FC<ProjectActionsType> = ({
         onClick={() => setExpandedId(id === expandedId ? "" : id)}
         className="details__expand-btn"
       >
-        Show Details
+       {t("project_info_btn")}
       </button>
     </div>
   );

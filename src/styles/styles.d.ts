@@ -32,8 +32,13 @@ declare module "styled-components" {
   interface Colors {
     "black-tr": "rgba(0,0,0,0.8)";
     black: "#000";
-    white: "#fff";
     orange: "#FFB40A";
+    darkOrange: "#F97203",
     red: "#FC300A";
+    white: "#fff";
+    whiteFade: "rgba(299,299,299,0.7)";
+    lightGray: "#E5E5E5";
+    gray: "#A6A6A6";
+    grayishBlue: "#5F6673";
   }
 }

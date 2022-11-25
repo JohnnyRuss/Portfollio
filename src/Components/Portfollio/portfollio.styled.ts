@@ -1,18 +1,15 @@
 import styled from "styled-components";
 import { media } from "../../styles/media.styles";
+import { sectionHeading, sectionBox } from "../../styles/helpers.styled";
 
 export const PortfollioContainer = styled.section`
-  width: 100%;
-  min-height:38rem;
-  max-width: ${({ theme }) => theme.utils.container};
-  margin: 0 auto;
-  margin-top: 10rem;
-  padding: 0 1rem;
+  ${sectionBox}
   padding-bottom: 5rem;
+  min-height: 38rem;
 
-  ${media.mobileLg`
-    margin-top:14rem; 
-  `}
+  .portfolio__heading {
+    ${sectionHeading("end")};
+  }
 
   .apps-container {
     position: relative;
@@ -32,12 +29,19 @@ export const PortfollioContainer = styled.section`
     width: max-content;
     text-transform: capitalize;
     border-radius: ${({ theme }) => theme.utils["rounded-lg"]};
-    background: ${({ theme }) => theme.color.red};
+    background: ${({ theme }) => theme.color.darkOrange};
+    transition: all 0.2s;
+    color: ${({theme})=>theme.color.lightGray};
+
+    :hover {
+      background: ${({ theme }) => theme.color.red};
+    }
   }
 `;
 
 export const ProjectContainer = styled.div<{ expanded: boolean }>`
   position: relative;
+  color: ${({ theme }) => theme.color.lightGray};
 
   .portfollio-item__fig {
     width: 100%;
@@ -99,6 +103,20 @@ export const ProjectContainer = styled.div<{ expanded: boolean }>`
     gap: 0.5rem;
     margin-top: 1.5rem;
     font-size: ${({ theme }) => theme.fontSize.sm};
+    padding: 0 0.5rem;
+  }
+
+  .expanded__item {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    align-items: start;
+    column-gap: 1rem;
+    border-bottom: 1px solid ${({ theme }) => theme.color.whiteFade};
+    padding: 0.5rem 0;
+
+    :last-child {
+      border-bottom: none;
+    }
   }
 
   .expanded-field--title {
@@ -107,6 +125,24 @@ export const ProjectContainer = styled.div<{ expanded: boolean }>`
 
   .expanded-main {
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 300;
+    font-size: ${({ theme }) => theme.fontSize.xsm};
+  }
+
+  .expanded__techs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    list-style: disc;
+    padding-left: 1.4rem;
+
+    li span {
+      position: relative;
+      left: -0.5rem;
+    }
+
+    li::marker {
+      color: ${({ theme }) => theme.color.orange};
+    }
   }
 `;

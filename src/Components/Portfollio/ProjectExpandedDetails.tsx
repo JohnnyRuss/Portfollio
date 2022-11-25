@@ -1,36 +1,45 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 interface ProjectExpandedDetailsType {
   title: string;
   description: string;
   techs: string[];
+  slug: string;
 }
 
 const ProjectExpandedDetails: React.FC<ProjectExpandedDetailsType> = ({
   title,
   description,
   techs,
+  slug,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="details__expanded">
-      <p>
-        <span className="expanded-field--title">Title: </span>
+      <p className="expanded__item">
+        <span className="expanded-field--title">{t("project_title")}</span>
         <span className="expanded-main">{title}</span>
       </p>
       {description && (
-        <p>
-          <span className="expanded-field--title">Description: </span>
-          <span>{description}</span>
+        <p className="expanded__item">
+          <span className="expanded-field--title">
+            {t("project_description")}
+          </span>
+          <span className="expanded-main">{t(`app_desc_${slug}`)}</span>
         </p>
       )}
-      <p>
-        <span className="expanded-field--title">Techs: </span>
-        {techs.map((tech, i, arr) => (
-          <span className="expanded-main" key={tech}>{`${tech}${
-            i === arr.length - 1 ? "." : ", "
-          }`}</span>
-        ))}
-      </p>
+      <div className="expanded__item">
+        <span className="expanded-field--title">{t("project_techs")}</span>
+        <ul className="expanded-main expanded__techs">
+          {techs.map((tech, i, arr) => (
+            <li key={tech}>
+              <span>{tech}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

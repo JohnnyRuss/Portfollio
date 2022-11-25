@@ -15,6 +15,7 @@ interface ProjectType {
     techs: string[];
     description: string;
     featured: boolean;
+    slug: string;
   };
 }
 
@@ -36,6 +37,7 @@ const Project: React.FC<ProjectType> = ({ app, expandedId, setExpandedId }) => {
           title={app.title}
           description={app.description}
           techs={app.techs}
+          slug={app.slug}
         />
       </div>
     </ProjectContainer>

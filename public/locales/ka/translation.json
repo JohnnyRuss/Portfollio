@@ -1,0 +1,42 @@
+{
+  "menu_bio": "ბიო",
+  "menu_skills": "უნარები",
+  "menu_portfolio": "პორტფოლიო",
+  "menu_contact": "კონტაქტი",
+
+  "person_name": "ჯონი რუსიეშვილი",
+
+  "bio": "თსუ ჰუმანიტარულ მეცნიერებათა ფაკულტეტი 2014 - დღემდე (აკადემიური წელი) - 2019-2021 წწ ITVET ინფორმაციული ტექნოლოგიების აკადემია - გრაფიკული დიზაინისა და ვებ-ინტერფეისის კურსი - 2021-დღემდე ინდივიდუალური პრაქტიკა ვებ-დეველოპმენტის მიმართულებით. პროცესში გავეცანი ტექნოლოგიებს როგორიცაა: HTML, CSS (SASS, Styled-Components, TailwindCSS, Bootstrap), Javascript(ES6), ReactJS(Redux, Redux-Saga, RTK Query, Zustand, ReactQuery), JWT Authentication/Authorization. ასევე NextJS და NodeJS(Express, Mongoose) საფუძვლები - რაც ნიშნავს რომ შემიძლია ავაგო თანამედროვე, მობაილზე მორგებული, სრულად ინტერაქტიული აპლიკაციები.დღესდღეობით განვაგრძობ განვითარებას და მზად ვარ ახალი გამოწვევებისა და შესაძლებლობებისთვის.",
+
+  "project_demo_btn": "ნახე დემო",
+  "project_info_btn": "ინფო",
+  "project_title": "სახელწოდება",
+  "project_description": "აღწერა",
+  "project_techs": "ტექნოლოგიები",
+  "apps_show_more_btn": "ნახე მეტი",
+  "apps_show_less_btn": "დამალეთ აპები",
+
+  "contact_visit_me": "მესტუმრე",
+  "contact_location": "თბილისი, საქართველო",
+  "contact_form_name": "სახელი",
+  "contact_form_subject": "საგანი",
+  "contact_form_email": "იმეილი",
+  "contact_form_message": "მესიჯი",
+  "contact_form_send_btn": "გაგზავნა",
+
+  "app_desc_bookmark_landing": "სტატიკური შაბლონი React, Typescript და Tailwind_ით.",
+  "app_desc_easy_bank": "სტატიკური შაბლონი React, Typescript და Styled Components_ით.",
+  "app_desc_fylo": "სტატიკური შაბლონი React, Typescript და Bootstrap_ით.",
+  "app_desc_link_shorterer": "შაბლონი React, Typescript და Tailwind_ით. იყენებს LinkShorterer API.",
+  "app_desc_manage_landing": "სტატიკური შაბლონი React, Typescript და Tailwind_ით.",
+  "app_desc_natours": "სტატიკური შაბლონი React და SASS_ით.",
+  "app_desc_nexter": "სტატიკური შაბლონი React და SASS_ით.",
+  "app_desc_pcfy": "Redbery_ის დავალება ფორმის ვალიდაციითა და ფაილის ატვირთვის ფუნქციით.",
+  "app_desc_product_page": "სტატიკური შაბლონი React, Typescript და Styled Components_ით.",
+  "app_desc_quiz": "React Quiz თამაში.",
+  "app_desc_room_page": "სტატიკური შაბლონი React, Typescript და Tailwind_ით.",
+  "app_desc_shopping_cart": "სტატიკური შაბლონი React, Typescript და Tailwind_ით.",
+  "app_desc_space_tourism": "სტატიკური შაბლონი React, Typescript და Tailwind_ით.",
+  "app_desc_to_do": "ToDo აპლიკაცია Drag&Drop ფუნქციით",
+  "app_desc_trillo": "სტატიკური შაბლონი React და SASS_ით."
+}

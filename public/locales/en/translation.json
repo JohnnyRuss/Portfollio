@@ -1,0 +1,42 @@
+{
+  "menu_bio": "bio",
+  "menu_skills": "skills",
+  "menu_portfolio": "portfolio",
+  "menu_contact": "contact",
+
+  "person_name": "joni rusieshvili",
+
+  "bio": "TSU Faculty of Humanities 2014 - to date (academic year) - 2019-2021 ITVET Academy of Information Technologies - graphic design and web interface course - 2021-to date individual practice in the direction of web development. In the process, I got to know technologies such as: HTML, CSS (SASS, Styled-Components, TailwindCSS, Bootstrap), Javascript(ES6), ReactJS(Redux, Redux-Saga, RTK Query, Zustand, ReactQuery), JWT Authentication/Authorization. Also the basics of NextJS and NodeJS(Express, Mongoose) - which means I can build modern, mobile-friendly, fully interactive applications. Today, I continue to develop and am ready for new challenges and opportunities.",
+
+  "project_demo_btn": "See Demo",
+  "project_info_btn": "Show Details",
+  "project_title": "Title",
+  "project_description": "Description",
+  "project_techs": "Techs",
+  "apps_show_more_btn": "Show More",
+  "apps_show_less_btn": "Hide Apps",
+
+  "contact_visit_me": "Visit Me",
+  "contact_location": "Tbilisi, Georgia",
+  "contact_form_name": "name",
+  "contact_form_subject": "subject",
+  "contact_form_email": "email",
+  "contact_form_message": "message",
+  "contact_form_send_btn": "Send",
+
+  "app_desc_bookmark_landing": "Static template with React, Typescript and Tailwind",
+  "app_desc_easy_bank": "Static template with React, Typescript and Styled Components",
+  "app_desc_fylo": "Static template with React, Typescript and Bootstrap",
+  "app_desc_link_shorterer": "Template with React, Typescript and Tailwind. Uses LinkShorterer API.",
+  "app_desc_manage_landing": "Static template with React, Typescript and Tailwind.",
+  "app_desc_natours": "Static template with React and SASS.",
+  "app_desc_nexter": "Static template with React and SASS.",
+  "app_desc_pcfy": "Redbery challange with form validation and file upload.",
+  "app_desc_product_page": "Static template with React, Typescript and Styled Components.",
+  "app_desc_quiz": "Quiz game with React.",
+  "app_desc_room_page": "Static template with React, Typescript and Tailwind.",
+  "app_desc_shopping_cart": "Static template with React, Typescript and Tailwind.",
+  "app_desc_space_tourism": "Static template with React, Typescript and Tailwind.",
+  "app_desc_to_do": "ToDo app with Drag&Drop functionality.",
+  "app_desc_trillo": "Static template with React and SASS."
+}
