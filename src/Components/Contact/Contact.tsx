@@ -1,11 +1,10 @@
 import React from "react";
-import { ContactContainer } from "./contact.styled";
+import { ContactContainer } from "./styles/contact.styled";
 import ContactDetails from "./ContactDetails";
 import ContactForm from "./ContactForm";
 
-interface ContactType {}
 
-const Contact: React.FC<ContactType> = (props) => {
+const Contact: React.FC = () => {
   return (
     <ContactContainer id="contact">
       <ContactDetails />

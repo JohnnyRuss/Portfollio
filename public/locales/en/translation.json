@@ -24,6 +24,7 @@
   "contact_form_email": "your email",
   "contact_form_message": "message",
   "contact_form_send_btn": "Send",
+  "email_success_msg":" Your email has been sent successfully. Thank you for contacting me. I will get in touch with you as soon as possible.",
 
   "app_desc_bookmark_landing": "Static template with React, Typescript and Tailwind",
   "app_desc_easy_bank": "Static template with React, Typescript and Styled Components",

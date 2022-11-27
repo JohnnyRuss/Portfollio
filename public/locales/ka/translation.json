@@ -24,6 +24,7 @@
   "contact_form_email": "თქვენი იმეილი",
   "contact_form_message": "მესიჯი",
   "contact_form_send_btn": "გაგზავნა",
+  "email_success_msg": "თქვენი იმაილი გაიგზავნა წარმატებით. გმადლობთ რომ დამიკავშირდით. გიპასუხებთ შესაძლებლობისთანავე.",
 
   "app_desc_bookmark_landing": "სტატიკური შაბლონი React, Typescript და Tailwind_ით.",
   "app_desc_easy_bank": "სტატიკური შაბლონი React, Typescript და Styled Components_ით.",

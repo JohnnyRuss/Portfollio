@@ -2,9 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { IntroContainer } from "./intro.styled";
 
-interface IntroType {}
-
-const Intro: React.FC<IntroType> = (props) => {
+const Intro: React.FC = () => {
   const { t } = useTranslation();
 
   return (

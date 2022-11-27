@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { NavContainer } from "./naviagation.styled";
 import { useTranslation } from "react-i18next";
 
-interface NavigationType {}
-
 enum LNG {
   "ka" = "ka",
   "en" = "en",
@@ -11,7 +9,7 @@ enum LNG {
   "EN-Show" = "EN",
 }
 
-const Navigation: React.FC<NavigationType> = (props) => {
+const Navigation: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   const [currLng, setCurrLng] = useState({

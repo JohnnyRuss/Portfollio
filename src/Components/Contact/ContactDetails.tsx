@@ -1,18 +1,17 @@
 import React from "react";
 import useStore from "../../store/store";
 
+import { DetailsContainer } from "./styles/details.styles";
 import { ImMobile, ImFacebook, ImLocation2 } from "react-icons/im";
 import { HiOutlineMail } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
 
-interface ContactDetailsType {}
-
-const ContactDetails: React.FC<ContactDetailsType> = (props) => {
+const ContactDetails: React.FC = () => {
   const contact = useStore((state) => state.contact);
   const { t } = useTranslation();
 
   return (
-    <div className="contact__details">
+    <DetailsContainer>
       <p className="contact__heading">
         <span>contact</span>
       </p>
@@ -44,7 +43,7 @@ const ContactDetails: React.FC<ContactDetailsType> = (props) => {
           <span>{t("contact_location")}</span>
         </p>
       </div>
-    </div>
+    </DetailsContainer>
   );
 };
 
