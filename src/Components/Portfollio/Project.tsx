@@ -1,22 +1,14 @@
 import React from "react";
-import { ProjectContainer } from "./portfollio.styled";
+
+import { ProjectContainer } from "./styles/project.styled";
 import ProjectExpandedDetails from "./ProjectExpandedDetails";
 import ProjectActions from "./ProjectActions";
 
+import {AppType} from "../../interface/interface.types"
 interface ProjectType {
   expandedId: string;
   setExpandedId: React.Dispatch<React.SetStateAction<string>>;
-  app: {
-    id: string;
-    title: string;
-    fig: string;
-    demo: string;
-    git: string;
-    techs: string[];
-    description: string;
-    featured: boolean;
-    slug: string;
-  };
+  app: AppType
 }
 
 const Project: React.FC<ProjectType> = ({ app, expandedId, setExpandedId }) => {

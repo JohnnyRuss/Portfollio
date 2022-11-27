@@ -1,47 +1,11 @@
-import styled from "styled-components";
-import { media } from "../../styles/media.styles";
-import { sectionHeading, sectionBox } from "../../styles/helpers.styled";
+import styled, {keyframes} from "styled-components";
 
-export const PortfollioContainer = styled.section`
-  ${sectionBox}
-  padding-bottom: 5rem;
-  min-height: 38rem;
-
-  .portfolio__heading {
-    ${sectionHeading("end")};
-  }
-
-  .apps-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-auto-rows: 30rem;
-    gap: 4rem;
-  }
-
-  .show-apps--btn {
-    position: sticky;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    bottom: 3rem;
-    padding: 1rem 2rem;
-    height: max-content;
-    width: max-content;
-    text-transform: capitalize;
-    border-radius: ${({ theme }) => theme.utils["rounded-lg"]};
-    background: ${({ theme }) => theme.color.darkOrange};
-    transition: all 0.2s;
-    color: ${({theme})=>theme.color.lightGray};
-
-    :hover {
-      background: ${({ theme }) => theme.color.red};
-    }
-  }
-`;
+const colapse_down=keyframes``
 
 export const ProjectContainer = styled.div<{ expanded: boolean }>`
   position: relative;
   color: ${({ theme }) => theme.color.lightGray};
+  max-width: 30rem;
 
   .portfollio-item__fig {
     width: 100%;

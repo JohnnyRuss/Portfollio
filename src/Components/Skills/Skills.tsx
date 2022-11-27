@@ -1,10 +1,12 @@
 import React from "react";
+
+import useStore from "../../store/store";
+
 import { SkillsContainer } from "./skills.styled";
-import skills from "../../lib/skills.json";
 
-interface SkillsType {}
+const Skills: React.FC = () => {
+  const skills = useStore((state) => state.skills);
 
-const Skills: React.FC<SkillsType> = (props) => {
   return (
     <SkillsContainer id="skills">
       <p className="skills__heading">

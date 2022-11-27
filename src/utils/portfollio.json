@@ -17,7 +17,7 @@
     "fig": "/assets/apps/link-shorterer.webp",
     "demo": "https://link-shorterer-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/url-shorterer--sc-",
-    "techs": ["react", "typescript", "tailwind"],
+    "techs": ["react", "typescript", "styled components"],
     "description": "Template with React, Typescript and Tailwind. Uses LinkShorterer API.",
     "featured": false
   },

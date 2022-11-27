@@ -1,12 +1,13 @@
 import React from "react";
+
+import useStore from "../../store/store";
+
 import { useTranslation } from "react-i18next";
 import { BioContainer } from "./bio.styled";
-import bio from "../../lib/bio.json";
 
-interface BioType {}
-
-const Bio: React.FC<BioType> = (props) => {
+const Bio: React.FC = () => {
   const { t } = useTranslation();
+  const bio = useStore((state) => state.bio);
 
   return (
     <BioContainer id="bio">

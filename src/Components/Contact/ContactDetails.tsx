@@ -1,13 +1,14 @@
 import React from "react";
+import useStore from "../../store/store";
+
 import { ImMobile, ImFacebook, ImLocation2 } from "react-icons/im";
 import { HiOutlineMail } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
 
-import contact from "../../lib/contact.json";
-
 interface ContactDetailsType {}
 
 const ContactDetails: React.FC<ContactDetailsType> = (props) => {
+  const contact = useStore((state) => state.contact);
   const { t } = useTranslation();
 
   return (
