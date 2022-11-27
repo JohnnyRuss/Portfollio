@@ -117,20 +117,24 @@ export const HeadingContainer = styled.div`
   .filter__techs-list {
     position: absolute;
     z-index: 9;
-    top: 100%;
+    top: 4.5rem;
     left: 0;
     right: 0;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+    padding: inherit;
     text-transform: capitalize;
     border-bottom-left-radius: ${({ theme }) => theme.utils["rounded-md"]};
     border-bottom-right-radius: ${({ theme }) => theme.utils["rounded-md"]};
-    padding: inherit;
     background: inherit;
     color: inherit;
     box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.5);
     animation: ${colapse_down} 0.2s;
+
+    ${media.mobileLg`
+      top:100%;
+    `}
   }
 
   .filter__techs-list--item {

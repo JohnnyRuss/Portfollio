@@ -1,11 +1,10 @@
-import styled, {keyframes} from "styled-components";
-
-const colapse_down=keyframes``
+import styled from "styled-components";
 
 export const ProjectContainer = styled.div<{ expanded: boolean }>`
   position: relative;
   color: ${({ theme }) => theme.color.lightGray};
   max-width: 30rem;
+  min-width: 30rem;
 
   .portfollio-item__fig {
     width: 100%;
@@ -62,12 +61,15 @@ export const ProjectContainer = styled.div<{ expanded: boolean }>`
   }
 
   .details__expanded {
-    display: ${({ expanded }) => (expanded ? "flex" : "none")};
+    display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1.5rem;
     font-size: ${({ theme }) => theme.fontSize.sm};
     padding: 0 0.5rem;
+    height: ${({ expanded }) => (expanded ? "100%" : "0%")};
+    overflow: hidden;
+    transition: height 0.25s;
   }
 
   .expanded__item {

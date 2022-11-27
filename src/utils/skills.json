@@ -51,11 +51,16 @@
   },
   {
     "id": "logo--11",
+    "title": "Redux-Saga",
+    "logo": "/assets/logos/redux-saga.webp"
+  },
+  {
+    "id": "logo--12",
     "title": "Zustand",
     "logo": "/assets/logos/zustand.webp"
   },
   {
-    "id": "logo--12",
+    "id": "logo--13",
     "title": "ReactQuery",
     "logo": "/assets/logos/react-query.webp"
   }

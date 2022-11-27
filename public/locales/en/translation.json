@@ -8,6 +8,7 @@
 
   "bio": "TSU Faculty of Humanities 2014 - to date (academic year) - 2019-2021 ITVET Academy of Information Technologies - graphic design and web interface course - 2021-to date individual practice in the direction of web development. In the process, I got to know technologies such as: HTML, CSS (SASS, Styled-Components, TailwindCSS, Bootstrap), Javascript(ES6), ReactJS(Redux, Redux-Saga, RTK Query, Zustand, ReactQuery), JWT Authentication/Authorization. Also the basics of NextJS and NodeJS(Express, Mongoose) - which means I can build modern, mobile-friendly, fully interactive applications. Today, I continue to develop and am ready for new challenges and opportunities.",
 
+  "filter_btn": "FILTER",
   "project_demo_btn": "See Demo",
   "project_info_btn": "Show Details",
   "project_title": "Title",
@@ -18,9 +19,9 @@
 
   "contact_visit_me": "Visit Me",
   "contact_location": "Tbilisi, Georgia",
-  "contact_form_name": "name",
+  "contact_form_name": "your name",
   "contact_form_subject": "subject",
-  "contact_form_email": "email",
+  "contact_form_email": "your email",
   "contact_form_message": "message",
   "contact_form_send_btn": "Send",
 

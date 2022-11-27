@@ -8,19 +8,20 @@
 
   "bio": "თსუ ჰუმანიტარულ მეცნიერებათა ფაკულტეტი 2014 - დღემდე (აკადემიური წელი) - 2019-2021 წწ ITVET ინფორმაციული ტექნოლოგიების აკადემია - გრაფიკული დიზაინისა და ვებ-ინტერფეისის კურსი - 2021-დღემდე ინდივიდუალური პრაქტიკა ვებ-დეველოპმენტის მიმართულებით. პროცესში გავეცანი ტექნოლოგიებს როგორიცაა: HTML, CSS (SASS, Styled-Components, TailwindCSS, Bootstrap), Javascript(ES6), ReactJS(Redux, Redux-Saga, RTK Query, Zustand, ReactQuery), JWT Authentication/Authorization. ასევე NextJS და NodeJS(Express, Mongoose) საფუძვლები - რაც ნიშნავს რომ შემიძლია ავაგო თანამედროვე, მობაილზე მორგებული, სრულად ინტერაქტიული აპლიკაციები.დღესდღეობით განვაგრძობ განვითარებას და მზად ვარ ახალი გამოწვევებისა და შესაძლებლობებისთვის.",
 
-  "project_demo_btn": "ნახე დემო",
+  "filter_btn": "ფილტრი",
+  "project_demo_btn": "ნახეთ დემო",
   "project_info_btn": "ინფო",
   "project_title": "სახელწოდება",
   "project_description": "აღწერა",
   "project_techs": "ტექნოლოგიები",
-  "apps_show_more_btn": "ნახე მეტი",
+  "apps_show_more_btn": "ნახეთ მეტი",
   "apps_show_less_btn": "დამალეთ აპები",
 
-  "contact_visit_me": "მესტუმრე",
+  "contact_visit_me": "მესტუმრეთ",
   "contact_location": "თბილისი, საქართველო",
-  "contact_form_name": "სახელი",
+  "contact_form_name": "თქვენი სახელი",
   "contact_form_subject": "საგანი",
-  "contact_form_email": "იმეილი",
+  "contact_form_email": "თქვენი იმეილი",
   "contact_form_message": "მესიჯი",
   "contact_form_send_btn": "გაგზავნა",
 

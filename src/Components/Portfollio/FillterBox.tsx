@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import useStore from "../../store/store";
 
 const FillterBox: React.FC = () => {
+  const { t } = useTranslation();
+
   const techs = useStore((state) => state.techs);
   const setFilter = useStore((state) => state.setFilter);
   const filterKeyWords = useStore((state) => state.filterKeyWords);
@@ -14,7 +17,7 @@ const FillterBox: React.FC = () => {
         className="filter__main-btn"
         onClick={() => setActiveFilterBox((prev) => !prev)}
       >
-        filter
+        {t("filter_btn")}
       </button>
       {activeFilterBox && (
         <ul className="filter__techs-list">
