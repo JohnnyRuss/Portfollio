@@ -110,6 +110,39 @@
     "featured": false
   },
   {
+    "id": "portfollio-app--16",
+    "title": "Blogr",
+    "slug": "blogr",
+    "fig": "/assets/apps/blogr.webp",
+    "demo": "https://blogr-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Blogr--B-",
+    "techs": ["react", "typescript", "bootstrap"],
+    "description": "Static template with React, Typescript and Bootstrap",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--17",
+    "title": "Clipboard Landing",
+    "slug": "clipboard_landing",
+    "fig": "/assets/apps/clipboard.webp",
+    "demo": "https://clipboard-landing-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/ClipBoard-Landing--B-",
+    "techs": ["react", "typescript", "bootstrap"],
+    "description": "Static template with React, Typescript and Bootstrap",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--18",
+    "title": "Crowdfunding",
+    "slug": "crowdfunding",
+    "fig": "/assets/apps/crowdfunding.webp",
+    "demo": "https://crowdfunding-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Crowdfunding--B-",
+    "techs": ["react", "typescript", "bootstrap"],
+    "description": "Static template with React, Typescript and Bootstrap",
+    "featured": false
+  },
+  {
     "id": "portfollio-app--5",
     "title": "Manage Landing",
     "slug": "manage_landing",
