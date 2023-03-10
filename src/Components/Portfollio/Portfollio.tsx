@@ -1,10 +1,13 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+
 import useStore from "../../store/store";
 
 import { PortfollioContainer } from "./styles/portfollio.styled";
 import { HeadingContainer } from "./styles/headingContainer.styled";
 import { AppsContainer } from "./styles/appsContainer.styled";
+
 import FillterKeys from "./FillterKeys";
 import Project from "./Project";
 import FillterBox from "./FillterBox";
@@ -18,6 +21,7 @@ const Portfollio: React.FC = () => {
 
   const { t } = useTranslation();
   const [expandedId, setExpandedId] = useState<string>("");
+  const [expandedGitModal, setExpandedGitModal] = useState<string>("");
   const [showAll, setShowAll] = useState<boolean>(false);
 
   const [dataToRender, setDataToRender] = useState<AppType[]>([]);
@@ -55,6 +59,8 @@ const Portfollio: React.FC = () => {
             app={app}
             expandedId={expandedId}
             setExpandedId={setExpandedId}
+            setExpandedGitModal={setExpandedGitModal}
+            expandedGitModal={expandedGitModal}
             key={app.id}
           />
         ))}

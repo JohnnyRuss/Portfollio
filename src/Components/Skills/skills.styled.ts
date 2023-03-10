@@ -17,9 +17,7 @@ export const SkillsContainer = styled.section`
   .skills__box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 10rem));
-    justify-content: center;
-    justify-items: center;
-    gap: 1.5rem;
+    gap: 3rem 1.5rem;
   }
 
   .skill-item {
@@ -43,6 +41,6 @@ export const SkillsContainer = styled.section`
 
   .skill-item__title {
     font-size: ${({ theme }) => theme.fontSize.xsm};
-    color:${({theme})=>theme.color.gray}
+    color: ${({ theme }) => theme.color.gray};
   }
 `;

@@ -33,8 +33,8 @@ const ProjectExpandedDetails: React.FC<ProjectExpandedDetailsType> = ({
       <div className="expanded__item">
         <span className="expanded-field--title">{t("project_techs")}</span>
         <ul className="expanded-main expanded__techs">
-          {techs.map((tech, i, arr) => (
-            <li key={tech}>
+          {techs.map((tech, i) => (
+            <li key={`tech-${tech}__${i}`}>
               <span>{tech}</span>
             </li>
           ))}

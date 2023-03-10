@@ -1,68 +1,195 @@
 [
   {
-    "id": "portfollio-app--8",
+    "id": "portfollio-app__resfull-1",
     "title": "Pcfy",
     "slug": "pcfy",
     "fig": "/assets/apps/pcfy.webp",
     "demo": "https://bootcamppcfy.netlify.app",
     "git": "https://github.com/JohnnyRuss/Bootcamp-2022",
-    "techs": ["react", "SASS"],
-    "description":"Redbery challange with form validation and file upload.",
+    "techs": [
+      "react",
+      "SASS"
+    ],
+    "description": "Redbery challange with form validation and file upload.",
     "featured": false
   },
   {
-    "id": "portfollio-app--4",
+    "id": "portfollio-app__resfull-2",
+    "title": "ResumeGenerator",
+    "slug": "resume_generator",
+    "fig": "/assets/apps/resume.webp",
+    "demo": "https://bootcamp-resume.vercel.app",
+    "git": "https://github.com/JohnnyRuss/bootcamp-resume",
+    "techs": [
+      "react",
+      "typescript",
+      "zustand",
+      "styled components"
+    ],
+    "description": "Redbery challange with form validation and file upload.",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app__resfull-3",
+    "title": "Booker",
+    "slug": "booker",
+    "fig": "/assets/apps/booker.webp",
+    "demo": "https://booker-tau.vercel.app",
+    "git": "https://github.com/JohnnyRuss/Booking.com",
+    "gitBack": "https://github.com/JohnnyRuss/Booking.com---Back",
+    "techs": [
+      "MERN",
+      "react",
+      "typescript",
+      "redux",
+      "redux-saga",
+      "SASS",
+      "expressJS",
+      "mongoose"
+    ],
+    "description": "Full-Stack(MERN) application.",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app__resfull-4",
+    "title": "Tuber",
+    "slug": "tuber",
+    "fig": "/assets/apps/tuber.webp",
+    "demo": "https://tuber-russ.vercel.app",
+    "git": "https://github.com/JohnnyRuss/yt-lama",
+    "gitBack": "https://github.com/JohnnyRuss/yt-lama-back",
+    "techs": [
+      "MERN",
+      "react",
+      "typescript",
+      "redux",
+      "redux-thunk",
+      "firebase file upload",
+      "google auth",
+      "JWT Authentication",
+      "styled components",
+      "expressJS",
+      "mongoose"
+    ],
+    "description": "Full-Stack(MERN) application.",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app__resfull-5",
     "title": "Link Shorterer",
     "slug": "link_shorterer",
     "fig": "/assets/apps/link-shorterer.webp",
     "demo": "https://link-shorterer-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/url-shorterer--sc-",
-    "techs": ["react", "typescript", "styled components"],
+    "techs": [
+      "react",
+      "typescript",
+      "styled components"
+    ],
     "description": "Template with React, Typescript and Tailwind. Uses LinkShorterer API.",
     "featured": false
   },
   {
-    "id": "portfollio-app--10",
+    "id": "portfollio-app__resfull-6",
     "title": "Quiz",
     "slug": "quiz",
     "fig": "/assets/apps/quiz.webp",
     "demo": "https://quiz-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/react-quiz",
-    "techs": ["react", "typescript"],
+    "techs": [
+      "react",
+      "typescript"
+    ],
     "description": "Quiz game with React.",
     "featured": false
   },
   {
-    "id": "portfollio-app--14",
+    "id": "portfollio-app__static-1",
     "title": "To Do",
     "slug": "to_do",
     "fig": "/assets/apps/to-do.webp",
     "demo": "https://to-do-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/To-Do-App",
-    "techs": ["react", "typescript"],
+    "techs": [
+      "react",
+      "typescript"
+    ],
     "description": "ToDo app with Drag&Drop functionality.",
     "featured": false
   },
   {
-    "id": "portfollio-app--13",
+    "id": "portfollio-app__static-2",
     "title": "Space Tourism",
     "slug": "space_tourism",
     "fig": "/assets/apps/space-tourism.webp",
     "demo": "https://space-tourism-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/Space-Tourism-tw-",
-    "techs": ["react", "typescript", "tailwind"],
+    "techs": [
+      "react",
+      "typescript",
+      "tailwind"
+    ],
     "description": "Static template with React, Typescript and Tailwind.",
     "featured": false
   },
   {
-    "id": "portfollio-app--9",
+    "id": "portfollio-app__static-3",
     "title": "Product Page",
     "slug": "product_page",
     "fig": "/assets/apps/product-page.webp",
     "demo": "https://product-page-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/product-page-sc-",
-    "techs": ["react", "typescript", "styled components"],
+    "techs": [
+      "react",
+      "typescript",
+      "styled components"
+    ],
     "description": "Static template with React, Typescript and Styled Components.",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app__static-4",
+    "title": "Blogr",
+    "slug": "blogr",
+    "fig": "/assets/apps/blogr.webp",
+    "demo": "https://blogr-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Blogr--B-",
+    "techs": [
+      "react",
+      "typescript",
+      "bootstrap"
+    ],
+    "description": "Static template with React, Typescript and Bootstrap",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app__static-5",
+    "title": "Crowdfunding",
+    "slug": "crowdfunding",
+    "fig": "/assets/apps/crowdfunding.webp",
+    "demo": "https://crowdfunding-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Crowdfunding--B-",
+    "techs": [
+      "react",
+      "typescript",
+      "bootstrap"
+    ],
+    "description": "Static template with React, Typescript and Bootstrap",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app__static-6",
+    "title": "Manage Landing",
+    "slug": "manage_landing",
+    "fig": "/assets/apps/manage-landing.webp",
+    "demo": "https://landing-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Landing-tw-",
+    "techs": [
+      "react",
+      "typescript",
+      "tailwind"
+    ],
+    "description": "Static template with React, Typescript and Tailwind.",
     "featured": false
   },
   {
@@ -72,19 +199,39 @@
     "fig": "/assets/apps/natours.webp",
     "demo": "https://natures-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/Natours",
-    "techs": ["react", "SASS"],
+    "techs": [
+      "react",
+      "SASS"
+    ],
     "description": "Static template with React and SASS.",
     "featured": false
   },
   {
-    "id": "portfollio-app--1",
-    "title": "Bookmark Landing",
-    "slug": "bookmark_landing",
-    "fig": "/assets/apps/bookmark-landing.webp",
-    "demo": "https://bookmark-landing-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Bookmark-Landing-tw-",
-    "techs": ["react", "typescript", "tailwind"],
-    "description": "Static template with React, Typescript and Tailwind",
+    "id": "portfollio-app--7",
+    "title": "Nexter",
+    "slug": "nexter",
+    "fig": "/assets/apps/nexter.webp",
+    "demo": "https://nexter-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Nexter-Static",
+    "techs": [
+      "react",
+      "SASS"
+    ],
+    "description": "Static template with React and SASS.",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--15",
+    "title": "Trillo",
+    "slug": "trillo",
+    "fig": "/assets/apps/trillo.webp",
+    "demo": "https://trillo-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Trillo",
+    "techs": [
+      "react",
+      "SASS"
+    ],
+    "description": "Static template with React and SASS.",
     "featured": false
   },
   {
@@ -94,8 +241,57 @@
     "fig": "/assets/apps/easy-bank.webp",
     "demo": "https://easy-bank-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/Easy-Bank-sc-",
-    "techs": ["react", "typescript", "styled components"],
+    "techs": [
+      "react",
+      "typescript",
+      "styled components"
+    ],
     "description": "Static template with React, Typescript and Styled Components",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--11",
+    "title": "Room Page",
+    "slug": "room_page",
+    "fig": "/assets/apps/room-page.webp",
+    "demo": "https://room-page-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Room-Page-tw-",
+    "techs": [
+      "react",
+      "typescript",
+      "tailwind"
+    ],
+    "description": "Static template with React, Typescript and Tailwind.",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--1",
+    "title": "Bookmark Landing",
+    "slug": "bookmark_landing",
+    "fig": "/assets/apps/bookmark-landing.webp",
+    "demo": "https://bookmark-landing-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Bookmark-Landing-tw-",
+    "techs": [
+      "react",
+      "typescript",
+      "tailwind"
+    ],
+    "description": "Static template with React, Typescript and Tailwind",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--12",
+    "title": "Shopping Cart",
+    "slug": "shopping_cart",
+    "fig": "/assets/apps/shopping-cart.webp",
+    "demo": "https://shopping-cart-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/shopping-card--tw-",
+    "techs": [
+      "react",
+      "typescript",
+      "tailwind"
+    ],
+    "description": "Static template with React, Typescript and Tailwind.",
     "featured": false
   },
   {
@@ -105,18 +301,11 @@
     "fig": "/assets/apps/fylo.webp",
     "demo": "https://fylo-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/fylo-B-",
-    "techs": ["react", "typescript", "bootstrap"],
-    "description": "Static template with React, Typescript and Bootstrap",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--16",
-    "title": "Blogr",
-    "slug": "blogr",
-    "fig": "/assets/apps/blogr.webp",
-    "demo": "https://blogr-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Blogr--B-",
-    "techs": ["react", "typescript", "bootstrap"],
+    "techs": [
+      "react",
+      "typescript",
+      "bootstrap"
+    ],
     "description": "Static template with React, Typescript and Bootstrap",
     "featured": false
   },
@@ -127,74 +316,12 @@
     "fig": "/assets/apps/clipboard.webp",
     "demo": "https://clipboard-landing-russ.netlify.app",
     "git": "https://github.com/JohnnyRuss/ClipBoard-Landing--B-",
-    "techs": ["react", "typescript", "bootstrap"],
+    "techs": [
+      "react",
+      "typescript",
+      "bootstrap"
+    ],
     "description": "Static template with React, Typescript and Bootstrap",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--18",
-    "title": "Crowdfunding",
-    "slug": "crowdfunding",
-    "fig": "/assets/apps/crowdfunding.webp",
-    "demo": "https://crowdfunding-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Crowdfunding--B-",
-    "techs": ["react", "typescript", "bootstrap"],
-    "description": "Static template with React, Typescript and Bootstrap",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--5",
-    "title": "Manage Landing",
-    "slug": "manage_landing",
-    "fig": "/assets/apps/manage-landing.webp",
-    "demo": "https://landing-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Landing-tw-",
-    "techs": ["react", "typescript", "tailwind"],
-    "description": "Static template with React, Typescript and Tailwind.",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--7",
-    "title": "Nexter",
-    "slug": "nexter",
-    "fig": "/assets/apps/nexter.webp",
-    "demo": "https://nexter-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Nexter-Static",
-    "techs": ["react", "SASS"],
-    "description": "Static template with React and SASS.",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--11",
-    "title": "Room Page",
-    "slug": "room_page",
-    "fig": "/assets/apps/room-page.webp",
-    "demo": "https://room-page-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Room-Page-tw-",
-    "techs": ["react", "typescript", "tailwind"],
-    "description": "Static template with React, Typescript and Tailwind.",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--12",
-    "title": "Shopping Cart",
-    "slug": "shopping_cart",
-    "fig": "/assets/apps/shopping-cart.webp",
-    "demo": "https://shopping-cart-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/shopping-card--tw-",
-    "techs": ["react", "typescript", "tailwind"],
-    "description": "Static template with React, Typescript and Tailwind.",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--15",
-    "title": "Trillo",
-    "slug": "trillo",
-    "fig": "/assets/apps/trillo.webp",
-    "demo": "https://trillo-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Trillo",
-    "techs": ["react", "SASS"],
-    "description": "Static template with React and SASS.",
     "featured": false
   }
 ]

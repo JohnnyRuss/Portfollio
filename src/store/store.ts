@@ -9,6 +9,7 @@ import {
 } from "../interface/interface.types";
 
 import aps from "../utils/portfollio.json";
+import blacklist from "../utils/blacklist.json";
 import bio from "../utils/bio.json";
 import contact from "../utils/contact.json";
 import skills from "../utils/skills.json";
@@ -29,15 +30,13 @@ interface StoreType {
 
 const useStore = create<StoreType>()(
   devtools((set) => ({
-    aps,
+    aps: aps.filter((app) => !blacklist.projects.includes(app.slug)),
+    techs: Array.from(new Set(aps.flatMap((app) => app.techs))),
+    skills: skills.filter((skill) => !blacklist.techs.includes(skill.id)),
     bio,
     contact,
-    skills,
-    techs: Array.from(new Set(aps.flatMap((app) => app.techs))),
     filteredApps: [],
     filterKeyWords: [],
-
-    /// setters
 
     setFilter: (tech: string) =>
       set((state) => {

@@ -12,4 +12,8 @@ export const AppsContainer = styled.div`
   ${media.mobileLg`
     justify-items:start;
   `}
+
+  ${media.mobile`
+    grid-auto-rows: 38rem;
+  `}
 `;

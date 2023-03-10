@@ -56,12 +56,37 @@
   },
   {
     "id": "logo--12",
+    "title": "Redux-Thunk",
+    "logo": "/assets/logos/redux-saga.webp"
+  },
+  {
+    "id": "logo--13",
     "title": "Zustand",
     "logo": "/assets/logos/zustand.webp"
   },
   {
-    "id": "logo--13",
+    "id": "logo--14",
     "title": "ReactQuery",
     "logo": "/assets/logos/react-query.webp"
+  },
+  {
+    "id": "logo--15",
+    "title": "NodeJS",
+    "logo": "/assets/logos/node.webp"
+  },
+  {
+    "id": "logo--16",
+    "title": "ExpressJS",
+    "logo": "/assets/logos/express.webp"
+  },
+  {
+    "id": "logo--17",
+    "title": "MongoDB",
+    "logo": "/assets/logos/mongodb.webp"
+  },
+  {
+    "id": "logo--18",
+    "title": "Mongoose",
+    "logo": "/assets/logos/mongoose.webp"
   }
 ]

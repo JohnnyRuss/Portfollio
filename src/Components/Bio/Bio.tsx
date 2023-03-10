@@ -23,7 +23,7 @@ const Bio: React.FC = () => {
           ))}
         </div>
         <div className="bio__details">
-          <p className="bio__text">{t("bio")}</p>
+          <p className="bio__text">{t("bio").replace(/<br>/g, "\n")}</p>
         </div>
       </div>
     </BioContainer>

@@ -21,7 +21,7 @@ const FillterBox: React.FC = () => {
       </button>
       {activeFilterBox && (
         <ul className="filter__techs-list">
-          {techs.map((tech) => (
+          {techs.sort().map((tech) => (
             <li
               className="filter__techs-list--item"
               key={`filter-tech--${tech}`}

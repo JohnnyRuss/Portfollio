@@ -5,6 +5,7 @@ export interface AppType {
   fig: string;
   demo: string;
   git: string;
+  gitBack?: string;
   techs: string[];
   description: string;
   featured: boolean;
