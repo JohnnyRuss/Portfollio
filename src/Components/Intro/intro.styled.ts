@@ -47,7 +47,7 @@ export const IntroContainer = styled.section`
       text-shadow: 1px 1px 1px red, 2px 1px 2px orange;
 
       ${({ theme }) => media.tablet`
-        font-size: ${theme.fontSize["h-1"]};
+        font-size: ${theme.fontSize["h-1"]};s
       `};
     }
 
@@ -61,6 +61,7 @@ export const IntroContainer = styled.section`
       -moz-background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      text-align: center;
 
       ${({ theme }) => media.tablet`
         font-size: ${theme.fontSize["h-1"]};

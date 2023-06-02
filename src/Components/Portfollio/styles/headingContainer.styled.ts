@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { sectionHeading } from "../../../styles/helpers.styled";
+import { sectionHeading, scrollBar } from "../../../styles/helpers.styled";
 import { media } from "../../../styles/media.styles";
 
 const colapse_down = keyframes`
@@ -53,7 +53,6 @@ export const HeadingContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
     text-transform: capitalize;
 
     ${media.mobileLg`
@@ -120,9 +119,11 @@ export const HeadingContainer = styled.div`
     top: 4.5rem;
     left: 0;
     right: 0;
+    max-height: 30rem;
+    overflow: auto;
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 1.25rem;
     padding: inherit;
     text-transform: capitalize;
     border-bottom-left-radius: ${({ theme }) => theme.utils["rounded-md"]};
@@ -131,6 +132,8 @@ export const HeadingContainer = styled.div`
     color: inherit;
     box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.5);
     animation: ${colapse_down} 0.2s;
+
+    ${scrollBar};
 
     ${media.mobileLg`
       top:100%;

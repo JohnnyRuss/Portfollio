@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { scrollBar } from "./helpers.styled";
 
 export const GlobalStyles = createGlobalStyle`
    *,*::after,*::before{
@@ -12,27 +13,14 @@ export const GlobalStyles = createGlobalStyle`
     font-size:62.5%;
    }
 
-   body{
+   body {
     font-family: 'Roboto', sans-serif;
     font-size:${({ theme }) => theme.fontSize.base};
     background:#000;
     color:#fff;
 
-    ::-webkit-scrollbar{
-      width: 1rem;
-    }
-
-    ::-webkit-scrollbar-thumb{
-      border-radius:1rem;
-      background:${({ theme }) =>
-        `linear-gradient(70deg, ${theme.color.red} 35%, ${theme.color.orange} 80%)`};
-    }
-    
-    ::-webkit-scrollbar-track{
-      border-radius:1rem;
-      background: ${({ theme }) => theme.color.grayishBlue};
-    }
-   }
+    ${scrollBar};
+  }
 
    input,button{
     border:none;

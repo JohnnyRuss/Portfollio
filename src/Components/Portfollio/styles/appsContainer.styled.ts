@@ -4,16 +4,13 @@ import { media } from "../../../styles/media.styles";
 export const AppsContainer = styled.div`
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  grid-auto-rows: 30rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: 38rem;
   gap: 4rem;
-  justify-items: center;
+  justify-content: center;
 
   ${media.mobileLg`
-    justify-items:start;
-  `}
-
-  ${media.mobile`
-    grid-auto-rows: 38rem;
+    grid-template-columns: repeat(auto-fill, 33rem);
+    justify-content:start;
   `}
 `;

@@ -53,7 +53,7 @@ const Portfollio: React.FC = () => {
         <FillterBox />
         {filteredKeyWord[0] && <FillterKeys keys={filteredKeyWord} />}
       </HeadingContainer>
-      <AppsContainer className="apps-container">
+      <AppsContainer>
         {dataToRender.slice(0, showAll ? dataToRender.length : 4).map((app) => (
           <Project
             app={app}

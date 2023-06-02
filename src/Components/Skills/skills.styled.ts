@@ -15,12 +15,16 @@ export const SkillsContainer = styled.section`
   }
 
   .skills__box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 10rem));
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(10rem, max-content)); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 3rem 1.5rem;
   }
 
   .skill-item {
+    width: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;

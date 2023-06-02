@@ -148,6 +148,34 @@
     "featured": false
   },
   {
+    "id": "portfollio-app--6",
+    "title": "Natours",
+    "slug": "natours",
+    "fig": "/assets/apps/natours.webp",
+    "demo": "https://natures-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Natours",
+    "techs": [
+      "react",
+      "SASS"
+    ],
+    "description": "Static template with React and SASS.",
+    "featured": false
+  },
+  {
+    "id": "portfollio-app--7",
+    "title": "Nexter",
+    "slug": "nexter",
+    "fig": "/assets/apps/nexter.webp",
+    "demo": "https://nexter-russ.netlify.app",
+    "git": "https://github.com/JohnnyRuss/Nexter-Static",
+    "techs": [
+      "react",
+      "SASS"
+    ],
+    "description": "Static template with React and SASS.",
+    "featured": false
+  },
+  {
     "id": "portfollio-app__static-4",
     "title": "Blogr",
     "slug": "blogr",
@@ -190,34 +218,6 @@
       "tailwind"
     ],
     "description": "Static template with React, Typescript and Tailwind.",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--6",
-    "title": "Natours",
-    "slug": "natours",
-    "fig": "/assets/apps/natours.webp",
-    "demo": "https://natures-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Natours",
-    "techs": [
-      "react",
-      "SASS"
-    ],
-    "description": "Static template with React and SASS.",
-    "featured": false
-  },
-  {
-    "id": "portfollio-app--7",
-    "title": "Nexter",
-    "slug": "nexter",
-    "fig": "/assets/apps/nexter.webp",
-    "demo": "https://nexter-russ.netlify.app",
-    "git": "https://github.com/JohnnyRuss/Nexter-Static",
-    "techs": [
-      "react",
-      "SASS"
-    ],
-    "description": "Static template with React and SASS.",
     "featured": false
   },
   {

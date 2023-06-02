@@ -36,8 +36,25 @@ export const sectionBox = css`
   margin: 0 auto;
   padding: 0 1rem;
   padding-top: 10rem;
-  
+
   ${media.mobileLg`
     margin-top:14rem; 
   `}
+`;
+
+export const scrollBar = css`
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: ${({ theme }) =>
+      `linear-gradient(70deg, ${theme.color.red} 35%, ${theme.color.orange} 80%)`};
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 1rem;
+    background: ${({ theme }) => theme.color.grayishBlue};
+  }
 `;

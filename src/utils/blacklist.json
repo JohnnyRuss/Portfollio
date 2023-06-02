@@ -1,14 +1,11 @@
 {
     "projects": [
-        "natours",
-        "nexter",
         "trillo",
         "easy_bank",
         "room_page",
         "bookmark_landing",
         "shopping_cart",
-        "fylo",
-        "clipboard_landing"
+        "fylo"
     ],
     "techs": [
         "logo--14"

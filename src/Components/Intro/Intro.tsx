@@ -9,7 +9,7 @@ const Intro: React.FC = () => {
     <IntroContainer>
       <div className="intro-details">
         <h1 className="person-name">{t("person_name")}</h1>
-        <h2 className="person-proffesion">Front-End Developer</h2>
+        <h2 className="person-proffesion">Front-End Web Developer</h2>
       </div>
       <figure className="intro-fig">
         <img

@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import { media } from "../../../styles/media.styles";
 
 const git_pop_up = keyframes`
   0%{
@@ -16,16 +15,11 @@ export const ProjectContainer = styled.div<{
 }>`
   position: relative;
   color: ${({ theme }) => theme.color.lightGray};
-  max-width: 30rem;
-  min-width: 30rem;
   border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   box-shadow: 0px 0px 25px 4px rgba(299, 299, 299, 0.2);
-
-  ${media.mobile`
-    max-width:100%;
-    min-width:100%;
-  `}
 
   .portfollio-item__fig {
     width: 100%;
@@ -110,7 +104,7 @@ export const ProjectContainer = styled.div<{
   .details__expanded {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.75rem;
     margin-top: 1.5rem;
     font-size: ${({ theme }) => theme.fontSize.sm};
     padding: 0 0.5rem;
@@ -146,7 +140,7 @@ export const ProjectContainer = styled.div<{
   .expanded__techs {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.75rem;
     list-style: disc;
     padding-left: 1.4rem;
     max-height: 100%;
