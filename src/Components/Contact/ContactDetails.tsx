@@ -32,7 +32,7 @@ const ContactDetails: React.FC = () => {
           <span>
             <ImFacebook />
           </span>
-          <a href={contact.facebook} target="_blank">
+          <a href={contact.facebook} target="_blank" rel="noreferrer">
             {t("contact_visit_me")}
           </a>
         </p>
